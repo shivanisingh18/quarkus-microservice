@@ -51,7 +51,7 @@ kind: Ingress
 metadata:
     annotations:
         nginx.ingress.kubernetes.io/rewrite-target: /$2
-    name: teama-ingress
+    name: odd-cure-ingress
     namespace: microservices
 spec:
     rules:
